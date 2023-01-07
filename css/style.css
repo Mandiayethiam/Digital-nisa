@@ -111,32 +111,35 @@ img{
 
     max-width: 1170px;
     margin: auto;
+   
     padding: 0 15px;
+}
+.about-text{
+    background: #fff;
+  font-size: 18px;
 }
 /* A PROPOS*/
 .about .section-title{
     text-align: left;
     margin: 0 0 15px;
+    
 }
 .about-img .img-box{
     max-width: 450px;
     background-color: var(--bg-color);
     box-shadow: var(--shadow);
-    border-radius: 5%;
+   border-radius: 50%;
     margin: auto;
     padding: 15px;
     position: relative;
 }
 
 .about-img .img-box{
-    margin-left: 10%;
-    
-border-radius: 50%
+    border-radius: 50%;
 }
-
 /* PARTIE MES SERVICES*/
 .services-item{
-    grid-column: span 3;
+    grid-column: span 4;
     text-align: center;
 
 }
@@ -144,15 +147,15 @@ border-radius: 50%
     height: 140px;
     width: 140px;
     border-radius: 50%;
-    margin: 0 auto 20px;
+    margin: 0 auto 10px;
     box-shadow: var(--shadow);
     background-color: var(--bg-color);
-    padding: 8px;
+    padding: 10px;
     overflow: hidden;
 }
 .services-item .img-box img{
     border-radius: 50%;
-    transition: transform 0.5s ease;
+    transition: transform 0.9s ease;
 }
 .services-item:hover .img-box img{
     transform: scale(1.5);
@@ -162,7 +165,6 @@ border-radius: 50%
     font-size: var(--fs-x1);
     font-weight: 500;
 }
-
 
 /*PARTIE  DOMAINE*/
 .domaine-item{
@@ -466,8 +468,4 @@ border-color:#234083 ;
 .home-text p{
     margin: 0 0 30px;
 }
-
-
-/*----- EQUIPE START----*/
-
 
